@@ -1,0 +1,43 @@
+.main {
+    background: url(../images/Background.png) no-repeat;
+    background-size: 960px 540px;
+    padding: 5px 25px;
+    margin: -5px -6px;
+    font-family: Calibri;
+}
+
+h1 {
+    color: #F3BE60;
+    font-size: 35px;
+    margin-top: 12px;
+}
+
+ol {
+    color: white;
+    font-size: 30px;
+    list-style-image: url(../images/square.jpg);
+}
+
+#section{
+    margin-top: -12px;
+}
+.list-content {
+    dbloisplay: ck;
+    width: 790px;
+    height: auto;
+    border: solid #f6fdff 1px;
+    background-color: #20201E;
+    opacity: 0.9;
+    font-size: 22px;
+    color: #fff3d4;
+    margin: 12px;
+    padding: 5px;
+}
+
+.tags {
+    color: #F3BE60;
+}
+
+.left-margin {
+    margin-left: 25px;
+}
