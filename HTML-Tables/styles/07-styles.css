@@ -1,0 +1,27 @@
+table {
+    border: 2px solid #000000;
+    width: 250px;
+    border-spacing: 4px;
+    margin: 30px;
+}
+
+tbody input:hover {
+    cursor: pointer;
+    outline: none;
+}
+
+th input {
+    font-size: 44px;
+    text-align: right;
+    height: 70px;
+    width: 305px;
+    padding: 2px 12px;
+}
+
+td input {
+    border-radius: 15px;
+    height: 70px;
+    width: 80px;
+    margin: 0;
+    font-size: 36px;
+}

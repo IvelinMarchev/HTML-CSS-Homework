@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>FakeBook Register Form</title>
+        <link rel="stylesheet" href="styles/04-styles.css" type="text/css"/>
+    </head>
+    <body>
+    <div id="wrapper">
+        <div id="fakebook">
+            <h1>fakebook<div id="r">&#174;</div></h1>
+            <h4>Registration</h4>
+            <h5>It is safe and it will always be!</h5>
+        </div>
+        <div id="non-important">
+            <form method="get">
+
+                <fieldset>
+                    <legend>None-Important Information</legend>
+                    <input class="big" name="first-name" type="text" placeholder="First Name" maxlength="20" />
+                    <input class="big" name="last-name" type="text" placeholder="Last Name" maxlength="20" />
+                    <input class="big" name="email" type="email" placeholder="Your Email" maxlength="40" />
+                    <input class="big" name="phone" type="tel" placeholder="Phone Number" maxlength="30" />
+                    <input class="big" name="password" type="password" placeholder="Your Password" maxlength="30" />
+                    <input class="big" name="website" type="url" placeholder="Website" maxlength="100" />
+                    <label for="birthday">Birthday</label>
+                    <br />
+                    <input name="birthday" id="birthday" type="datetime-local" value="2014-05-09T13:58:00.00" maxlength="40" />
+                    <div id="radio">
+                        <input name="gender" id="female" type="radio" />
+                        <label for="female">Female</label>
+                        <input name="gender" id="male" type="radio" />
+                        <label for="male">Male</label>
+                        <input name="gender" id="other" type="radio" checked="checked" />
+                        <label for="other">Other</label>
+                    </div>
+                </fieldset>
+
+            </form>
+            <button type="reset">Clear Form</button>
+        </div>
+        <div id="important">
+            <form method="get">
+
+                <fieldset>
+                    <legend>Important Information *required</legend>
+                    <select class="big" name="country">
+                        <option selected="selected">Country</option>
+                        <option>Bulgaria</option>
+                        <option>Romania</option>
+                        <option>Greece</option>
+                        <option>Macedonia</option>
+                        <option>Serbia</option>
+                        <option>Turkey</option>
+                    </select>
+                    <input class="big" name="village" type="text" placeholder="Village" maxlength="20" />
+                    <input class="big" name="district" type="text" placeholder="District" maxlength="20" />
+                    <input class="big" name="street" type="text" placeholder="Street" maxlength="20" />
+                    <input class="small" name="nr" type="number" placeholder="Nr" maxlength="5" />
+                    <input class="small" name="floor" type="number" placeholder="Floor" maxlength="5" />
+                    <input class="small" name="ap-nr" type="number" placeholder="Ap Nr" maxlength="5" />
+                    <br />
+                    <label for="door-color">Door Color</label>
+                    <br />
+                    <input class="big" name="door-color" id="door-color" type="color" value="#FF86C4" />
+                    <input class="big" name="water-meter" type="number" placeholder="Water Meter Nr" maxlength="15" />
+
+                    <select class="big" name="panties">
+                        <option selected="selected">Aunt Panties' Size</option>
+                        <option>Xtra Small</option>
+                        <option>Small</option>
+                        <option>Medium</option>
+                        <option>Large</option>
+                        <option>Xtra Large</option>
+                        <option>Xtra XL</option>
+                    </select>
+
+                    <label for="personal-info">More Personal Information</label>
+                    <br />
+                    <textarea id="personal-info" name="personal-info" placeholder="Give Us More Information!!!"></textarea>
+                </fieldset>
+            </form>
+
+            <button type="submit">Register</button>
+        </div>
+    </div>
+    </body>
+</html>

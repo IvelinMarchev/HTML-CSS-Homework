@@ -1,0 +1,76 @@
+body {
+    font-family: Tahoma, sans-serif;
+    font-size: 12pt;
+}
+
+#rectangle {
+    border-top: 6px dotted #ffff00;
+    border-bottom: 6px double #0000ff;
+    border-left: 6px dashed #ff0000;
+    border-right: 6px solid #1c8002;
+    width: 550px;
+    height: 200px;
+    padding: 10px;
+    box-shadow: 15px 15px 8px #3F3F3F;
+}
+
+body > div > p {
+    text-transform: uppercase;
+    text-shadow: 13px 8px 15px gray;
+    font-size: 2.5em;
+}
+
+P {
+    text-align: center;
+    font-size: 1.25em;
+    margin: 10px;
+}
+
+#inner-box {
+    border-radius: 50px;
+    border: 2px solid #FF1A1A;
+    box-shadow: 0 0 0 2px #FBFD00, 0 0 0 4px #006F21, 0 0 0 6px #0028AE;
+    margin: 40px 10px 10px 10px;
+    width: 520px;
+    height: 80px;
+}
+
+input {
+    color: black;
+    width: 170px;
+    height: 15px;
+    padding: 2px;
+    text-align: center;
+    background-color: #D8921A;
+    border-bottom: 3px solid #A56401;
+    border-right: 3px solid #A56401;
+    border-top: 3px solid #FCA401;
+    border-left: 3px solid #FCA401;
+}
+
+#left {
+    left: 85px;
+    position: relative;
+}
+
+#right {
+    right: -85px;
+    position: relative;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: black;
+    font-size: 1.1em;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: black;
+    font-size: 11pt;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: black;
+    font-size: 11pt;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+     color: black;
+     font-size: 11pt;
+ }
