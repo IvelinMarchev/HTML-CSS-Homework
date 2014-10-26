@@ -22,7 +22,7 @@ ol {
     margin-top: -12px;
 }
 .list-content {
-    dbloisplay: ck;
+    display: block;
     width: 790px;
     height: auto;
     border: solid #f6fdff 1px;
