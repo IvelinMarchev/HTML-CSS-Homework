@@ -1,5 +1,5 @@
 .main {
-    background: url(../images/Background.png) no-repeat;
+    background: url("../images/Background.png") no-repeat;
     background-size: 960px 540px;
     padding: 5px 25px;
     margin: -5px -6px;
@@ -15,7 +15,7 @@ h1 {
 ol {
     color: white;
     font-size: 30px;
-    list-style-image: url(../images/square.jpg);
+    list-style-image: url('../images/square.jpg');
 }
 
 #section{
